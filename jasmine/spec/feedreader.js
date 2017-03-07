@@ -76,6 +76,8 @@ $(function() {
             expect ($('body').hasClass('menu-hidden')).toBeTruthy();
           });
     });
+
+
     /* TODO: Write a new test suite named "Initial Entries" */
     describe ('Initial Entries', function() {
         /* TODO: Write a test that ensures when the loadFeed
@@ -97,6 +99,8 @@ $(function() {
             done();
         });
     });
+
+
     /* TODO: Write a new test suite named "New Feed Selection" */
     describe ('New Feed Selection', function() {
         var contentCSS,
